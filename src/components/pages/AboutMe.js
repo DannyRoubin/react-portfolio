@@ -32,7 +32,7 @@ export default function AboutMe() {
                   MealDB API, Pixabay API, OpenWeatherMap API, Markdown,
                   MongoDB, IndexedDB, React, graphQL and Java
                 </li>
-                <li>
+                <li class="aboutMeSkills">
                   Useful Skills: Hard working, great with teams, and actively
                   seeking ways to expand knowledge and skills within the field
                 </li>

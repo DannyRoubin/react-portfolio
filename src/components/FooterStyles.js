@@ -6,10 +6,7 @@ export const Box = styled.div`
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 80px;
-  @media (max-width: 1000px) {
-    padding: 70px 30px;
-  }
+  height: 50px;
 `;
 
 export const Container = styled.div`

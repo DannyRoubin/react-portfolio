@@ -11,5 +11,10 @@
 }
 
 .aboutMePoints {
-  margin-bottom: inherit;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.aboutMeSkills {
+  margin-bottom: 4rem;
 }
