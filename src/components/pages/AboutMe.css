@@ -1,0 +1,15 @@
+.aboutMeHeader {
+  font-size: 32px;
+  font-weight: 700;
+  border-bottom: ridge;
+  color: #ac3b61;
+}
+
+.aboutMeBody {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.aboutMePoints {
+  margin-bottom: inherit;
+}

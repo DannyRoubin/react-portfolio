@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Daniel Roubin Portfolio Page</title>
+  </head>
+
+ 
+  <body>
+
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand navbarName" href="#">Daniel Roubin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbarSections" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link scrollto" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#featuredProjects">Featured Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About me section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2 ">
+            <img src="assets/images/profilePic.JPG" class="img-fluid float-end rounded" alt="Daniel Roubin Profile Picture">
+          </div>
+          <div class= "col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 ">
+            <h3 class = "aboutMeHeader">About Me</h3>
+            <p class="aboutMeBody">
+              I am currently a sophomore student at the University of Washington Bothell studying Computer Science.
+              Besides being enrolled full time at the University of Washington Bothell, I am also currently enrolled in the
+              University of Washington full stack coding bootcamp. I enjoy solving difficult problems and working with teams
+              of other motivated individuals to complete projects. I look forward to working on challenging problems and growing
+              my knowledge and skills within the field.
+              <ul>
+                <li class = "aboutMePoints">Known languages/technologies: Html 5, CSS 3, JavaScript, Node.js, jquery, Express.JS, MySQL, Bootstrap, Foundation, MealDB API, Pixabay API, OpenWeatherMap API,  Markdown, MongoDB, IndexedDB, React, and Java </li>
+                <li>Useful Skills: Hard working, great with teams, and actively seeking ways to expand knowledge and skills within the field</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- resume section -->
+    <section id="resume" class="resume">
+
+      <div class = "container">
+        <div class="text-center">
+          <h1>Check Out My Resume</h1>
+          <p>For a more complete list of skills, languages, and technologies check out my resume!</p>
+          <a class="resumeDownloadButton" href="./assets/resume/Daniel Roubin Resume August 2021.docx.pdf" target="_blank">View Resume</a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- featured projects section -->
+    <section id="featuredProjects" class="featuredProjects">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class = "featuredProjectsHeader">Featured Projects</h2>
+        </div>
+<div class="row ">
+        <!-- first block on the left -->
+
+        <div class="card projectSpacing" style="width: 18rem;">
+          <img class="card-img-top" src="assets/images/TechBlogImg.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tech Blog</h5>
+            <p class="card-text">A tech blog built using Express, node, MySQL, and JavaScript.</p>
+            <a href="https://github.com/DannyRoubin/Tech-Blog" class="btn btn-primary">Github Repo</a>
+            <a href="https://still-reaches-72482.herokuapp.com/" class="btn btn-primary">Live App</a>
+          </div>
+        </div>
+
+          <!-- block in the middle -->
+
+          <div class="card projectSpacing" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/GiftListImg.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">GiftList</h5>
+              <p class="card-text">Gift list allows users to keep track of gifts for others much easier. Built using JavaScript, MySQL, Node, and numerous npm packages.</p>
+              <a href="https://github.com/CailinBellWold/Project-2-Gift-List" class="btn btn-primary">GitHub Repo</a>
+              <a href="https://project-2-gift-list.herokuapp.com/" class="btn btn-primary">Live App</a>
+            </div>
+          </div>
+
+          <!-- rightmost block -->
+
+          <div class="card projectSpacing" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/NoteTakerImg.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Note Taker</h5>
+              <p class="card-text">Note taker app built using JavaScript Node, and Express</p>
+              <a href="https://github.com/DannyRoubin/Note-Taker" class="btn btn-primary">GitHub Repo</a>
+              <a href="https://hw11note-taker.herokuapp.com/" class="btn btn-primary">Live App</a>
+            </div>
+          </div>
+
+
+        </div>        
+      </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section id="contact" class="services">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 class = "contactMeHeader">Contact Me</h2>
+        </div>
+
+        <div class="row">
+
+          <!-- linkedin account -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 contactMeBlocks">
+            <a href="https://www.linkedin.com/in/danielroubin/" class="contactMeBlocksInterior">
+              <h4>LinkedIn</h4>
+              <p>in/danielroubin</p>
+            </a>
+          </div>
+
+          <!-- github account -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 contactMeBlocks">
+            <a href="https://github.com/DannyRoubin" class="contactMeBlocksInterior">
+              <h4>GitHub</h4>
+              <p>DannyRoubin</p>
+            </a>
+          </div>
+
+          <!-- email -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 contactMeBlocks">
+            <a href="mailto: dannyroubin1@gmail.com" class="contactMeBlocksInterior" >
+              <h4>Email</h4>
+              <p>dannyroubin1@gmail.com</p>
+            </a>
+          </div>
+
+          <!-- phone -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 contactMeBlocks">
+            <a href="tel:2067872406" class="contactMeBlocksInterior">
+              <h4>Phone</h4>
+              <p>(206)787-2406</p>
+            </a>
+          </div>
+            </div>
+          </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
