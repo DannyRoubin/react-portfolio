@@ -1,0 +1,7 @@
+nav {
+  background-color: #edc7b7;
+}
+
+.navbarSections {
+  flex-flow: row-reverse;
+}
