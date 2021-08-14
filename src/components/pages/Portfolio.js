@@ -1,17 +1,108 @@
 import React from "react";
+import GiftListImg from "../../assets/images/GiftListImg.jpg";
+import NoteTakerImg from "../../assets/images/NoteTakerImg.jpg";
+import TechBlogImg from "../../assets/images/TechBlogImg.jpg";
+import {} from "./Portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <section id="featuredProjects" class="featuredProjects">
+      <div class="container">
+        <div class=" section-title">
+          <h2 class="featuredProjectsHeader">Featured Projects</h2>
+        </div>
+        <div class="row">
+          {/* <!-- first block on the left --> */}
+
+          <div
+            class="card projectSpacing"
+            style={{ width: "18rem", backgroundColor: "#edc7b7" }}
+          >
+            <img class="card-img-top" src={TechBlogImg} alt="tech blog img" />
+            <div class="card-body">
+              <h5 class="card-title">Tech Blog</h5>
+              <p class="card-text">
+                A tech blog built using Express, node, MySQL, and JavaScript.
+              </p>
+              <a
+                href="https://github.com/DannyRoubin/Tech-Blog"
+                class="btn btn-primary"
+              >
+                Github Repo
+              </a>
+              <a
+                href="https://still-reaches-72482.herokuapp.com/"
+                class="btn btn-primary"
+              >
+                Live App
+              </a>
+            </div>
+          </div>
+
+          {/* <!-- block in the middle --> */}
+
+          <div
+            class="card projectSpacing"
+            style={{ width: "18rem", backgroundColor: "#edc7b7" }}
+          >
+            <img
+              class="card-img-top"
+              src={GiftListImg}
+              alt="Gift list app img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">GiftList</h5>
+              <p class="card-text">
+                Gift list allows users to keep track of gifts for others much
+                easier. Built using JavaScript, SQL, and many npm packages.
+              </p>
+              <a
+                href="https://github.com/CailinBellWold/Project-2-Gift-List"
+                class="btn btn-primary"
+              >
+                GitHub Repo
+              </a>
+              <a
+                href="https://project-2-gift-list.herokuapp.com/"
+                class="btn btn-primary"
+              >
+                Live App
+              </a>
+            </div>
+          </div>
+
+          {/* <!-- rightmost block --> */}
+
+          <div
+            class="card projectSpacing"
+            style={{ width: "18rem", backgroundColor: "#edc7b7" }}
+          >
+            <img
+              class="card-img-top"
+              src={NoteTakerImg}
+              alt="Note taker app img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Note Taker</h5>
+              <p class="card-text">
+                Note taker app built using JavaScript Node, and Express
+              </p>
+              <a
+                href="https://github.com/DannyRoubin/Note-Taker"
+                class="btn btn-primary"
+              >
+                GitHub Repo
+              </a>
+              <a
+                href="https://hw11note-taker.herokuapp.com/"
+                class="btn btn-primary"
+              >
+                Live App
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }

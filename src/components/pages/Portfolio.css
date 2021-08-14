@@ -1,0 +1,13 @@
+.projectSpacing {
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  color: black;
+  background-color: #edc7b7;
+}
+
+.featuredProjectsHeader {
+  font-size: 32px;
+  font-weight: 700;
+  border-bottom: ridge;
+  color: #ac3b61;
+}
