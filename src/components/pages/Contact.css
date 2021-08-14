@@ -1,0 +1,16 @@
+.contactMeHeader {
+  font-size: 32px;
+  font-weight: 700;
+  border-bottom: ridge;
+  color: #ac3b61;
+}
+
+.contactMeBlocks {
+  border: black solid 2px;
+  background-color: #edc7b7;
+  font-size: large;
+}
+
+.contactMeBlocksInterior {
+  color: black;
+}
