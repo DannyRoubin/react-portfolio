@@ -13,7 +13,7 @@ export default function Resume() {
           </p>
           <a
             class="resumeDownloadButton"
-            href="/DanielRoubinResumeAugust2021.docx.pdf"
+            href="/react-portfolio/DanielRoubinResumeAugust2021.docx.pdf"
             target="_blank"
             rel="noreferrer"
           >
