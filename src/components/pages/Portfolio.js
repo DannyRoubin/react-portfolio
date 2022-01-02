@@ -16,7 +16,7 @@ export default function Portfolio() {
 
           <div
             class="card projectSpacing"
-            style={{ width: "18rem", backgroundColor: "#edc7b7" }}
+            style={{ width: "18rem"  }}
           >
             <img class="card-img-top" src={TechBlogImg} alt="tech blog img" />
             <div class="card-body">
@@ -33,7 +33,7 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://still-reaches-72482.herokuapp.com/"
-                class="btn btn-primary"
+                class="btn btn-primary projectButton"
               >
                 Live App
               </a>
@@ -44,7 +44,7 @@ export default function Portfolio() {
 
           <div
             class="card projectSpacing"
-            style={{ width: "18rem", backgroundColor: "#edc7b7" }}
+            style={{ width: "18rem" }}
           >
             <img
               class="card-img-top"
@@ -59,13 +59,14 @@ export default function Portfolio() {
               </p>
               <a
                 href="https://github.com/CailinBellWold/Project-2-Gift-List"
-                class="btn btn-primary"
+                class="btn btn-primary projectButton"
+                style={{marginRight: ".3rem" }}
               >
                 GitHub Repo
               </a>
               <a
                 href="https://project-2-gift-list.herokuapp.com/"
-                class="btn btn-primary"
+                class="btn btn-primary projectButton"
               >
                 Live App
               </a>
@@ -76,7 +77,7 @@ export default function Portfolio() {
 
           <div
             class="card projectSpacing"
-            style={{ width: "18rem", backgroundColor: "#edc7b7" }}
+            style={{ width: "18rem" }}
           >
             <img
               class="card-img-top"
@@ -90,13 +91,14 @@ export default function Portfolio() {
               </p>
               <a
                 href="https://github.com/DannyRoubin/Note-Taker"
-                class="btn btn-primary"
+                class="btn btn-primary projectButton"
+                style={{marginRight: ".3rem" }}
               >
                 GitHub Repo
               </a>
               <a
                 href="https://hw11note-taker.herokuapp.com/"
-                class="btn btn-primary"
+                class="btn btn-primary projectButton"
               >
                 Live App
               </a>

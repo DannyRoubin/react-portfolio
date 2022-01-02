@@ -1,18 +1,27 @@
 .projectSpacing {
   margin-right: 2rem;
   margin-bottom: 1rem;
-  color: black;
-  background-color: #edc7b7;
+  color: #251E13;
+  background-color: #CFCFDE !important;
+  
 }
 
 .featuredProjectsHeader {
   font-size: 32px;
   font-weight: 700;
   border-bottom: ridge;
-  color: #ac3b61;
+  color: #251E13;
 }
 
 .projectButton {
-  background-color: #424261;
-  border-color: #424261
+  background-color: #424261 !important;
+  border-color: #424261 !important;
+  color: white
+  
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #636392 !important;
+  border-color: #636392 !important; 
 }
