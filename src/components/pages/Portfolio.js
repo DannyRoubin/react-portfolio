@@ -26,7 +26,8 @@ export default function Portfolio() {
               </p>
               <a
                 href="https://github.com/DannyRoubin/Tech-Blog"
-                class="btn btn-primary"
+                class="btn btn-primary projectButton"
+                style={{marginRight: ".3rem" }}
               >
                 Github Repo
               </a>

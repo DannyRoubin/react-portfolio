@@ -19,18 +19,18 @@ export default function AboutMe() {
             <p class="aboutMeBody">
               I am currently a sophomore student at the University of Washington
               Bothell studying Computer Science. Besides being enrolled full
-              time at the University of Washington Bothell, I am also currently
-              enrolled in the University of Washington full stack coding
-              bootcamp. I enjoy solving difficult problems and working with
-              teams of other motivated individuals to complete projects. I look
-              forward to working on challenging problems and growing my
-              knowledge and skills within the field.
+              time at the University of Washington Bothell. I completed the
+              University of Washington full stack coding bootcamp in early
+              September and received my coding certificate from it. I enjoy
+              solving difficult problems and working with teams of other
+              motivated individuals to complete projects. I look forward to
+              working on challenging problems and growing my knowledge and
+              skills within the field.
               <ul>
                 <li class="aboutMePoints">
                   Known languages/technologies: Html 5, CSS 3, JavaScript,
                   Node.js, jquery, Express.JS, MySQL, Bootstrap, Foundation,
-                  MealDB API, Pixabay API, OpenWeatherMap API, Markdown,
-                  MongoDB, IndexedDB, React, graphQL and Java
+                  Markdown, MongoDB, IndexedDB, React, and Java
                 </li>
                 <li class="aboutMeSkills">
                   Useful Skills: Hard working, great with teams, and actively

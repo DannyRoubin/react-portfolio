@@ -2,19 +2,34 @@
   font-size: 32px;
   font-weight: 700;
   border-bottom: ridge;
-  color: #ac3b61;
+  color: #251E13;
 }
 
 .aboutMeBody {
   font-size: 20px;
   font-weight: 300;
+  color: #251E13;
 }
 
 .aboutMePoints {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: #251E13;
 }
 
 .aboutMeSkills {
   margin-bottom: 4rem;
+  color: #251E13;
 }
+
+
+
+
+/* 
+Things to fix
+clicking on name should take me to the about me section
+fix colors
+get rid of footer 
+update resume
+make about me sections small on mobile 
+*/

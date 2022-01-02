@@ -1,7 +1,16 @@
 nav {
-  background-color: #edc7b7;
+  background-color: #CFCFDE;
+  border-bottom: 5px solid white;
 }
 
 .navbarSections {
   flex-flow: row-reverse;
 }
+
+.navbarName {
+  color: #251E13  !important;
+  font-size: xx-large !important;
+  margin-right: 40px;
+  
+}
+
