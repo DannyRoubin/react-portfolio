@@ -10,8 +10,9 @@ function NavTabs({ currentPage, handlePageChange }) {
       class="navbar navbar-expand-lg navbar-light"
     >
       <a
-        class=" navbar-brand navbarSections navbarName"
+        class=" navbar-brand navbarName"
         href="#aboutme"
+        onClick={() => handlePageChange("AboutMe")}
       >
         Daniel Roubin
       </a>
@@ -20,13 +21,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           <li style={{ fontSize: "large" }} className="nav-item ">
             <a
               href="#aboutme"
-              
               onClick={() => handlePageChange("AboutMe")}
               style={{color: "#251E13"}}
               // This is a conditional (ternary) operator that checks to see if the current page is "AboutMe"
               // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
               className={
-                "navItemCustomization" &&
                 currentPage === "AboutMe" ? "nav-link active" : "nav-link"
               }
             >
@@ -40,7 +39,6 @@ function NavTabs({ currentPage, handlePageChange }) {
               style={{color: "#251E13"}}
               // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
               className={
-                "navItemCustomization" &&
                 currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
             >
@@ -54,7 +52,6 @@ function NavTabs({ currentPage, handlePageChange }) {
               style={{color: "#251E13"}}
               // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
               className={
-                "navItemCustomization" &&
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
             >

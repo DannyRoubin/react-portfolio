@@ -27,7 +27,9 @@ export default function PortfolioContainer() {
 
   return (
     <div
-    style={{ backgroundColor: "#E6E6EF"  }}
+    style={{ backgroundColor: "#E6E6EF", fontFamily: "Open Sans, sans-serif",
+    fontSize: "16px",
+    lineHeight: "1.5"  }}
     >
       
       {/* We are passing the currentPage from state and the function to update it */}
