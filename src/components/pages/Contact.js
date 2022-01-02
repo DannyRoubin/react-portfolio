@@ -43,13 +43,13 @@ export default function Contact() {
             </a>
           </div>
 
-          {/* <!-- phone --> */}
+          {/* <!-- phone -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 contactMeBlocks">
             <a href="tel:2067872406" class="contactMeBlocksInterior">
               <h4>Phone</h4>
               <p>(206)787-2406</p>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

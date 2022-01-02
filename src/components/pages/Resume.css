@@ -1,3 +1,14 @@
 .resume {
+  color: #251E13;
   font-size: larger;
+}
+.resumeDownloadButton {
+  background-color: #424261 !important;
+  border-color: #424261 !important;
+  color: white
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #636392 !important;
+  border-color: #636392 !important; 
 }

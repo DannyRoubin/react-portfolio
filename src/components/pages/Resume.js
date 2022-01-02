@@ -12,8 +12,8 @@ export default function Resume() {
             check out my resume!
           </p>
           <a
-            class="resumeDownloadButton"
-            href="/react-portfolio/DanielRoubinResumeAugust2021.docx.pdf"
+            class="btn btn-primary resumeDownloadButton"
+            href="/react-portfolio/Resume.pdf"
             target="_blank"
             rel="noreferrer"
           >

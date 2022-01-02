@@ -2,15 +2,16 @@
   font-size: 32px;
   font-weight: 700;
   border-bottom: ridge;
-  color: #ac3b61;
+  color: #251E13;
 }
 
 .contactMeBlocks {
   border: black solid 2px;
-  background-color: #edc7b7;
+  background-color: #CFCFDE;
   font-size: large;
+  
 }
 
 .contactMeBlocksInterior {
-  color: black;
+  color: #251E13;
 }
