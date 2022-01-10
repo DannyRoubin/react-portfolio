@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.81c47922.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d2ed95b6.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d2ed95b6.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.283a27a2.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.0af9faad.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0af9faad.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
-    "static/css/2.da1eef19.chunk.css": "/react-portfolio/static/css/2.da1eef19.chunk.css",
-    "static/js/2.8ebff68b.chunk.js": "/react-portfolio/static/js/2.8ebff68b.chunk.js",
-    "static/js/2.8ebff68b.chunk.js.map": "/react-portfolio/static/js/2.8ebff68b.chunk.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/react-portfolio/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.6490ae38.chunk.js": "/react-portfolio/static/js/2.6490ae38.chunk.js",
+    "static/js/2.6490ae38.chunk.js.map": "/react-portfolio/static/js/2.6490ae38.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/2.da1eef19.chunk.css.map": "/react-portfolio/static/css/2.da1eef19.chunk.css.map",
-    "static/css/main.81c47922.chunk.css.map": "/react-portfolio/static/css/main.81c47922.chunk.css.map",
-    "static/js/2.8ebff68b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8ebff68b.chunk.js.LICENSE.txt",
+    "static/css/2.d8cb5cde.chunk.css.map": "/react-portfolio/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.283a27a2.chunk.css.map": "/react-portfolio/static/css/main.283a27a2.chunk.css.map",
+    "static/js/2.6490ae38.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6490ae38.chunk.js.LICENSE.txt",
     "static/media/GiftListImg.67bc9161.jpg": "/react-portfolio/static/media/GiftListImg.67bc9161.jpg",
     "static/media/NoteTakerImg.baa7eaee.jpg": "/react-portfolio/static/media/NoteTakerImg.baa7eaee.jpg",
     "static/media/TechBlogImg.bebfaf09.jpg": "/react-portfolio/static/media/TechBlogImg.bebfaf09.jpg",
@@ -19,9 +19,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
-    "static/css/2.da1eef19.chunk.css",
-    "static/js/2.8ebff68b.chunk.js",
-    "static/css/main.81c47922.chunk.css",
-    "static/js/main.d2ed95b6.chunk.js"
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.6490ae38.chunk.js",
+    "static/css/main.283a27a2.chunk.css",
+    "static/js/main.0af9faad.chunk.js"
   ]
 }
