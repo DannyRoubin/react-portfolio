@@ -1,6 +1,6 @@
 import React from "react";
 import GiftListImg from "../../assets/images/GiftListImg.jpg";
-import NoteTakerImg from "../../assets/images/NoteTakerImg.jpg";
+import WorkoutImg from "../../assets/images/WorkoutImg.jpg";
 import TechBlogImg from "../../assets/images/TechBlogImg.jpg";
 import {} from "./Portfolio.css";
 
@@ -81,23 +81,23 @@ export default function Portfolio() {
           >
             <img
               class="card-img-top"
-              src={NoteTakerImg}
-              alt="Note taker app img"
+              src={WorkoutImg}
+              alt="Workout tracker app img"
             />
             <div class="card-body">
-              <h5 class="card-title">Note Taker</h5>
+              <h5 class="card-title">Workout Tracker</h5>
               <p class="card-text">
-                Note taker app built using JavaScript Node, and Express
+                Workout tracker app built using JavaScript, Node, and MongoDB
               </p>
               <a
-                href="https://github.com/DannyRoubin/Note-Taker"
+                href="https://github.com/DannyRoubin/Workout-Tracker"
                 class="btn btn-primary projectButton"
                 style={{marginRight: ".3rem" }}
               >
                 GitHub Repo
               </a>
               <a
-                href="https://hw11note-taker.herokuapp.com/"
+                href="https://workout-tracker--app.herokuapp.com/"
                 class="btn btn-primary projectButton"
               >
                 Live App
